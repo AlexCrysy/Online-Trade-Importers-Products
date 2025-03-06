@@ -29,7 +29,7 @@ header{ /*separar el titulo con el carrito de compras*/
 }
 .Containerproductos{ /*Configuracion de los contenedores de cada producto*/
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px; /*Se usa para separar cada contener de los productos*/
 }
 .item{  /*Configuracion de las clases de cada contenedor de los items*/
