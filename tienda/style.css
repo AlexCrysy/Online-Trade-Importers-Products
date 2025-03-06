@@ -107,7 +107,7 @@ header{ /*separar el titulo con el carrito de compras*/
     object-fit: cover; /*Configuracion de las imagenes y las centra*/
     border-radius: 0%; /*forma ovalada a la imagenes*/
     width: 100%;  
-    background: linear-gradient(to right, rgba(0 0 0 / 0.8),rgba(0 0 0 / 0.4) ), url(/tienda/images/piep.jpg);
+    background: linear-gradient(to right, rgba(0 0 0 / 0.8),rgba(0 0 0 / 0.4) ), url(/images/piep.jpg/);
     background-size: cover;
 }
 .pie-text{
