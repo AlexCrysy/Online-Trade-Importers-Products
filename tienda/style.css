@@ -14,10 +14,10 @@ body{
     color: #333333;
 }
 .icon-cart{   /*Dimensiones del icono de compras*/
-    width: 26px;
+    width: 16px;
     height: 40px;
     transition: all 2s;
-    padding:0px 65px;
+    padding:0px 45px;
 }
 img{ /*Tamaño de las imagenes*/
     max-width: 100%;
@@ -29,7 +29,7 @@ header{ /*separar el titulo con el carrito de compras*/
 }
 .Containerproductos{ /*Configuracion de los contenedores de cada producto*/
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px; /*Se usa para separar cada contener de los productos*/
 }
 .item{  /*Configuracion de las clases de cada contenedor de los items*/
@@ -95,6 +95,10 @@ header{ /*separar el titulo con el carrito de compras*/
     transform: scale(1.0);
     width: 100%;  
 } 
+
+
+
+
 
 
 .pie-img{
@@ -202,3 +206,72 @@ header{ /*separar el titulo con el carrito de compras*/
     font-weight: 900;/*Negrilla del texto*/ 
     padding:0px 0px 0px 765px;
  }
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+
+ /*RESPONSIVO PARA DISPOSITIVOS MOVILES 1 FORMA PARA TAMAÑO DE 900 PX*/
+@media screen and (max-width:900px){  /*SE ADPATA EN 900PX */
+    header{
+        background-position: center;   
+    }
+}
+.cc1{
+    font-size: 15px;
+    justify-content:right;/*centra */
+    width: 10%; 
+    background-position: right;
+   
+}
+
+
+
+
+
+.texto{
+    font-size: 5px;
+}
+
+.contenedor-sobre-nosotros{
+    flex-direction: column;/*centra */
+    justify-content:center;/*centra */
+    align-items: center;
+}
+.textob button{
+    width: 90%;
+}
+.img{
+    width: 20%;
+}
+.Containerproductos1{
+    justify-content: column; /*ahora de filas los pasa a columnas- dejabo de la otra*/
+    justify-content: center;/*ahora lo centra verticalmente y no horizontal*/
+    align-items: center;/*centrarlos*/
+}
+
+
+
+/*RESPONSIVO PARA DISPOSITIVOS MOVILES 2 FORMA PARA TAMAÑO DE 500 PX*/
+@media screen and (max-width:500px){  /*SE ADPATA EN 500PX */
+    nav{
+        background-position: center;  
+        padding: 30px 0 0 0 ; 
+    }
+    nav a{
+        margin-right: 5px;
+    }
+}
+
+.header .texto{
+    font-size: 35px;
+}
+.img{
+    width: 50%;
+}
+.texto{
+    font-size: 10px;
+}
